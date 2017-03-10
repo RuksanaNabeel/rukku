@@ -1,0 +1,13 @@
+#!/bin/bash
+n=$#
+nm=$1
+f1=$2
+f2=$4
+f3=$5
+echo "Number of occurance of $nm in $f1 is"
+cat f1|grep -c "$nm"
+echo "Number of occurance of $nm in $f2 is"
+cat f2|grep -c "$nm"
+echo "Number of occurance of $nm in $f3 is"
+cat f3|grep -c "$nm"
+
